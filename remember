@@ -1,0 +1,28 @@
+Groff-ms
+
+IMPORANT
+	groff-ms
+
+SHORTCUTS
+
+TEXT FORMAT
+	.TL: title
+	.AU: Author
+	.AI: Author institution
+	.DA: Date
+	.PP: Paragraph
+	.NH number: Heading subsection
+	.I string: Italic
+	.B string: Bold
+	.BI string: Bold italic
+
+EQUATION
+
+	.EQ: start equation
+	.EN: end equation
+
+COMMANDS COMPILE
+	groff -ms (PS)
+	groff -ms -T pdf > <TITLE>.pdf
+	groff -e <FILE> -ms -T pdf > <TITLE>.pdf
+

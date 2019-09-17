@@ -1,0 +1,38 @@
+# First course (anglais)
+
+## Info
+
+* Arjen K.Lenstra
+* moodle.epfl.ch (lecture notes after lecture)
+* akl@epfl.ch
+* book (>7 edition)
+* exercice session -> groups assignment on moodle
+* groups team -> email akl@epfl.com <20190919 09h
+* final exam -> january 23 2020, 8:15-11:15
+  	(mutilple choice ~24Qs no penalities)
+
+
+## Basics
+
+* log
+* function
+  * injective
+  * surjective
+  * bijective
+* radix representation
+
+
+## RSA/SHA
+
+* secure fingerprint E ZZ
+* MD4(x) =< 2^12 key
+* MD5(x) =< 2^128 throughout until 2008 break in sqr(2^128) = 2^64
+* P of collision in a set of n is sqr(n)
+* NSA made SHA (boost MD5 boost to 160) SHA0 bad
+* SHA1 improved (Antoine Joux, understand diff between SHA0 SHA1 -> find exploit in MD5 2004)
+* SHA2 =< 2^256
+	* public competition -> SHA3 tot. diff SHA2
+
+# Radix representation
+
+* base n
