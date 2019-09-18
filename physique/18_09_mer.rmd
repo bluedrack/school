@@ -1,0 +1,102 @@
+# Introduction
+
+## Stucture du cours
+* 14 leçon
+* 13 sessions
+  	- 4 prob. par session
+* moodle
+
+* MOOC (mecanique: Prof, J-Ph Ansermet)
+
+* Livre: Mecanique Prof. J-Ph Ansermet
+	- Presses Polytechniques Universitaires Rommandes
+
+## Histoire
+
+* Mec.
+* Equilibre (stat)
+* Mouvement (dyna)
+* Déformation
+
+* Etude de la mecanique
+* Raison historique
+* Raison méthodologique et pédagogique
+
+### Aristote
+
+* mdr
+* Nul et ne sait pas faire de la physique
+* Méthadologie ~~scientifique~~
+
+### Galilée
+
+* good guy
+* Théorie: language math.
+
+### Kepler / Brahe
+
+* 3 mouvements:
+	1. Loi des orbites (ellipse; soleil=foyer)
+	0. Loi des aires (aire/temps = const)
+	0. Loi des periodes ($p^2/demi-grand axe^3 = const$)
+
+### Newton
+
+* Theorie physique
+  	* lois de la mecanique
+* Theorie mathématique
+  	* calcul diff. et int.
+### Limites
+
+* Triomphe de newton ($ fin XVII^{eme} -> XIX^{eme} siècle$)
+* Henri Poincaré
+	* Théorie du chaos ($XIX^{eme}$ siècle et Lorenz 1960)
+* Relativité resteinte (Einstein, 1905)
+* Mecanique quantique (Schrodinger, Heisenberg, Dirac: 1920 )
+
+# Derivées
+
+## Derivée d'une fonction
+* Vitesse dérivée de la position $x(t)$ par rapport à t
+* $V(t) = \lim_{\Delta t \to 0} \frac{\Delta x(t)}{\Delta t}$
+$\rightarrow$ $V(t) = \frac{\delta x}{\delta t}$
+$\rightarrow$ $\delta x = V\delta t$
+
+* Accélération dérivée de la vitesse v(t) par rapport au temps t
+* $a(x) = \lim_{\Delta t \to 0} \frac{\Delta v(t)}{\Delta t} \rightarrow a(x)= \frac{\delta V}{\delta t} \rightarrow \delta v = a\delta t$
+* $a(t) = \lim_{\Delta t \to 0} \frac{\Delta (\lim_{\Delta t \to o }\frac{\Delta x(t)}{\Delta t})}{\Delta t}$
+* $a(t) = \frac{d^2x}{dt^2}$
+* Derivée de g(t)
+	* $g(t+dt) = g(t) + \delta g$
+* Derivée de f(g)
+	* $\frac{dg}{df} \rightarrow f(g) + \frac{df}{dg}dg$
+* Derivé de f(g(t))
+	* $f'(g(t))*g'(t)$
+	* $\frac{dx}{dt} = \frac{df}{dg}\frac{dg}{dt}$
+
+### Exemples
+
+* Position d'un oscillateur harmonique
+	* $x(t) = A\cos(wt+\omega)$
+	* $x'(t) = -Awsin(wt+\omega)$
+* Energie cinétique d'un obj de masse m
+	* $T(t) = 1/2mv^2(t)$
+	* $\frac{dT(t)}{dt} = \frac{d(1/2mv^2)}{dvt}\frac{dv(t)}{dt} = mv(t)a(t)$
+
+### Dev. limité d'une fonction
+
+* Relation infinitésimale
+* Ecriture avec des limites
+	* $lim_{\Delta t \to 0} x(t+\Delta t) = x(t) + lim_{\Delta t \to 0} \frac{x(t+\Delta t) - x(t)}{\Delta t} * \Delta t$
+* Approx.: $\Delta t << t$
+	* $\frac{dx}{dt} ~= \frac{x(t +\Delta t) - x(t)}{\Delta t}$
+
+# Produit scalaire et vectoriel
+
+## Repère direct
+
+* Vecteur
+* Repère
+  	* Entité géo. constitué de trois vecteurs liné. indépen. attaché à l'origine O
+* Repère orthonormé
+	* Vecteur de base ortho.
