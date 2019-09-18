@@ -1,0 +1,75 @@
+---
+title: Cheat sheet rmarkdown
+author: Orélian KOhler
+output: pdf_document
+---
+
+
+# Header settings
+
+```
+---
+title: string
+author: string
+date: string
+output:
+	pdf_document:
+		toc: bool (opt.) (table of content)
+		toc_depth: n (opt.)
+		number_sections: bool
+---
+```
+
+# Math
+
+entry of math \$\$
+
+\\alpha 	$\alpha$
+
+\\beta	 	$\beta$
+
+\\infty		$\infty$
+
+\\cos(x)	$\cos(x)$
+
+\\lim_{x \\to 2} = 5  $\lim_{x \to 2} = 5$
+
+n^2		$n^2$
+
+k_n^2	$k_n^2$
+
+\\frac{n!}{k!(k-1)} $\frac{n!}{k!(k-1)}$
+
+\\binom{n}{k} $\binom{n}{k}$
+
+^3/_7 $^3/_7$
+
+\\sum_{i=1}^{10} t_i $\sum_{i=1}^{10} t_i$
+
+\\int_0^\\infty e^{-x}\\,dx $\int_0^\infty e^{-x}\,dx$
+
+\\prod	$\prod$
+
+f'() $f'()$
+
+\\bar{a}	$\bar{a}$
+
+
+# Code
+\`\`\`{node,python,c,json,bash,etc.}
+
+console.log("salut")
+
+\`\`\`
+
+## Node
+```{node}
+console.log("salut")
+```
+
+## Python
+```{python}
+print('coucou')
+```
+
+
