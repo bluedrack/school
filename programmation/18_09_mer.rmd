@@ -1,0 +1,86 @@
+# Présentation du cours
+
+## Objectifs
+* base de la prog. (en java mdr!!!!!)
+* orienté object
+
+## Resources
+
+* moodle
+* coursera
+
+## MOOC
+
+* couplage a deux mooc's durant 10 semaines
+* mini-projets
+
+### Inscription
+
+* MOOC initation à la prog (java)
+* MOOC initation à l'orienté obj (java)
+
+!!s'inscire!!
+
+Mais pas payer
+
+On est libre mdr j'irai jamais ici.
+
+### Resources
+
+* Videos
+* Questionnaire
+* Devoirs
+
+
+## JAVA
+
+* openjdk 11
+* InteliJ (MDR)
+
+
+## Mini projets
+
+1. génération de Code qr
+0. orienté obj
+
+### Qr code
+
+* qr code generator
+
+### Orienté obj
+
+* zelda
+
+
+## Salles
+
+* salles INF[1-3]
+* CO21
+
+## Support de cours
+
+* Walter Savitch, Absolute Java, 6th Edition
+
+## Notes
+
+* Mini-projet 1 20%
+	* mardi 12 novembre 2019
+* Mini-projet 2	30%
+	* jeudi 19 decembre 2019
+* Test écrit	50%
+	* 18 decembre
+
+## Environnement de travail
+
+* logiciel application
+* logiciel utilitaire
+* logiciel sytemes
+
+## Commands
+
+* ls ( list ) les fichiers et les dossier
+* cd ( change directory ) changer de dossier
+* man + commands ( manuel )
+
+
+
