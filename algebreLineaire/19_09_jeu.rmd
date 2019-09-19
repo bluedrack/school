@@ -1,0 +1,139 @@
+# Infos
+
+* livre: algebre lin. et application
+* Aide: caterina.bigoni@epfl.ch
+* MOOC et moodle
+
+
+## Exams
+
+* 80% QCM
+* 20% DEV
+* Examen blanc
+
+
+# Introduction au systême d'eqn lin
+
+## Def. eqn lin.
+
+Une equation lin. ont les variable x1...xn est une eqn de la forme $a_1x_1+a_2x_2+...+a_nx_n = b$
+
+Ex. $3x_1-2x_2+7x_3=2$
+
+Non. Lin $x_1x_2$
+
+## Def. systeme d'eqn lin.
+
+Système d'eqn est une collection d'eqn aux memes variables $x_1...x_n$
+
+Note: ajouter un systeme d'equ !
+
+### Ex.
+
+Notes ajouter des exemples de sys. d'eqn lin.
+
+
+## Def. sol
+
+Une sol. d'un sys. d'equ lin. est une liste de $(s_1,..,s_n)$ qui transforme chaque eqn. du sys. en une egalité vraie.
+
+### Ex.
+
+Notes ajouter des exemples de solutions pour les exemples de sys.
+
+## Interpret. geo.
+
+* Sol. Unique: Intersec. de deux droites pour la 2D
+* $\infty$ Sol.: deux droites se confondent
+
+### Generalisation
+
+On peut demontrer le theoreme suivant: Un sys. d'eqn. lin. peut avoir:
+
+a. Aucune solution
+b. Une solution	
+c. Une $\infty$
+
+a. -> incompatiables
+b. et c. -> compatibles
+
+## Notation matricielles
+
+Une matrice est un tableau rectangulaire de nombres
+
+Une matice est de taille $m*n$ si le tableau poseed de m lignes et n colonnes
+
+Ex.
+Notes une matice(2x3)
+
+A un sys. d'eqn lin., on associe des matrices.
+
+Ex. $AX=B$ où A,X et B sont des matrices
+
+Matrice des coef. = $A$
+
+Matrice augmentée = $AB$
+
+Ex. Notes mat. coeff. et augm.
+
+# Resolution d'un sys. lin.
+
+## Idee
+
+Pour trouver les sol. d'un sys. lin., on remplace le sys. par un sys. lin. avec le même ensemble de sol. plus facile.
+
+## Operation élé.
+
+On definit trois op. élém. sur un sys. d'eqn. lin.
+
+a. Additionner à une eqn du sys. le multiple d'une autre eqn du sys.
+b. Permuter deux eqn. du sys.
+c. Multiplier tout les termes d'un eqn par le même scalaire $n \in \mathbb{R}_*$
+
+Ex. des trois op.
+
+Exer: verifier que les op. élé ne change pas l'ensemble de sol.
+
+### Notation
+
+Pour la notation matricielles, les op. élé s'énoncent
+
+a. Additionner à une ligne de la mtrice augmenté un mutltiple d'une autre ligne
+b. Permuter deux ligne de mat. aug.
+c. Mult. chaque éll d'une ligne de la mat. aug. par le meme scalaire non-nul
+
+Def: Une matrice est _échelonnée_ si les deux conditions suivantes sont satisfaites:
+
+(a) Toute ligne nul n'est suivie que par des lignes nulles verticalement
+(b) Le premier élé non nul dans la ligne i+1 est à droit du premier élt dsans la ligne i pour tout i >= 1. On appelle cet élt _pivot_.
+
+Ex. Matices tout les zero ont des zero en dessous.
+$$
+\begin{pmatrix}
+(1) & 0 & 3 & 2 \\
+0 & (2) & 0 & 1 \\
+0 & 0 & (1) & 1 \\
+0 & 0 & 0 & 0 
+\end{pmatrix}
+(n) =  pivot
+$$
+
+Def. Une matrice _échelonnée reduite_ si elle est échelonnée et en plus:
+
+* Chaque pivot est égal à 1
+* Le seul non-nulle dans la colonnes d'un pivot est le pivot même.
+
+
+Ex. Echelonnée reduite...
+
+Les sys. lin. associés à une matrice échelonnée réduite sont toujours facile à resoudre
+
+Ex. Avec les matrice échelonée reduite.
+
+Idée: Pour trouver les solutions d'un sys d'eqn lin., on transforme sa matrice augmentée $A$ par des op. élé. à une matrice échelonnée et reduite $B$ puis on résous le système associé à la matrice $B$.
+
+### Théoreme
+
+Toute matrice peut-être transformée par des op. élé. en matrice échelonée et réduite.
+
+

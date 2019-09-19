@@ -54,6 +54,29 @@ f'() $f'()$
 
 \\bar{a}	$\bar{a}$
 
+\\sqrt[n]{x} $sqrt[n]{x}$
+
+\\vec{x}	$\vec{x}$
+
+\\dot{x}	$\dot{x}$
+
+\\ddot{x}	$\ddot{x}$
+
+=			$=$
+
+\\neq		$\neq$
+
+\\approx	$\approx$
+
+\\simeq		$\simeq$
+
+\\leq		$\leq$
+
+\\geq		$\geq$
+
+\\pm		$\pm$
+
+\\mp		$\mp$
 
 # Code
 \`\`\`{node,python,c,json,bash,etc.}

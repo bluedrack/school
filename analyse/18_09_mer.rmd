@@ -62,33 +62,38 @@
 * Function
 	* Ex. $f(x)=3x^2+2x+1$
 	* Types de function
-	  	* Polynomiales
-			* $f(x)=a_nx^n+a_{n-1}x^{n-1}+...+a_n$, $a \in \mathbb{R}$
-			* Linéaire
-			* Quadratique
-			* Etc.
-		* Rationnelles
-			* polynome sur polynome
-			* $\frac{P(x)}{Q(x)}$ $Q(x) \neq 0$
-			* $D_f \in \mathbb{R} \setminus f(x)=0$
-		* Algébriques
-		  	* Functions appartenus de polynomes avec $+,-,/,\sqrt{}$
-			* Ex. $f(x)=\sqrt{x}$
-		* Transendantes
-			* Fc Trigo et réciproques
-				* Ex. $\cos(x)$ $\sin(x)$ $\cot(x)$ $\tan()$
-			* Fc log., exp.
-				* $f(x) = e^x$
-			  	* $f(x) = \log(x)$
-				* $\log(e^x) = x, x \in \mathbb{R}$ 
-				* Ex. $f(x) = a^x$ réc: $g(x) = \log_a(x), a \in \mathbb{R}^+$
 
-* Tranformation des graphiques
-	* $x^2 - 3$
-		* $-3y$ depuis $x^2$
-	* $(x-3)^2$
-	  	* $+3x$ depuis $x^2$
-	* $2\sin(x)$
-	  	- x2 verticale
-	* $\sin(2x)$
-		- 1/2 période
+### Polynomiales
+* $f(x)=a_nx^n+a_{n-1}x^{n-1}+...+a_n$, $a \in \mathbb{R}$
+* Linéaire
+* Quadratique
+* Etc.
+
+###  Rationnelles
+* polynome sur polynome
+* $\frac{P(x)}{Q(x)}$ $Q(x) \neq 0$
+* $D_f \in \mathbb{R} \setminus f(x)=0$
+
+### Algébriques
+* Functions appartenus de polynomes avec $+,-,/,\sqrt{}$
+* Ex. $f(x)=\sqrt{x}$
+
+### Transendantes
+* Fc Trigo et réciproques
+	* Ex. $\cos(x)$ $\sin(x)$ $\cot(x)$ $\tan()$
+* Fc log., exp.
+* $f(x) = e^x$
+  	* $f(x) = \log(x)$
+	* $\log(e^x) = x, x \in \mathbb{R}$ 
+	* Ex. $f(x) = a^x$ réc: $g(x) = \log_a(x), a \in \mathbb{R}^+$
+
+### Tranformation des graphiques
+* $x^2 - 3$
+	* $-3y$ depuis $x^2$
+* $(x-3)^2$
+  	* $+3x$ depuis $x^2$
+* $2\sin(x)$
+  	- x2 verticale
+* $\sin(2x)$
+	- 1/2 période
+
