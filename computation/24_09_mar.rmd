@@ -1,0 +1,60 @@
+# Logical Operator
+
+Logical operator on (component) proposistion
+
+* $\neg$
+* $\lor$
+* $\land$
+* $\oplus$
+* $\rightarrow$
+* $\gets \to$
+* $\leftrightarrow$
+
+* $0^0 = 1$
+* $0! = 1$
+* $p \leftarrow q$ if
+* $p \rightarrow q$ only if
+
+
+[Wiki](https://en.wikipedia.org/wiki/Logical_connective)
+
+## Def.
+
+* A compo prop. that is always true is a tautology. $(p\rightarrow q) \leftrightarrow (\neg p \land q)$ or $p \rightarrow q \equiv \neg p \land q$
+	* using a truth table
+* A compo pro. that is always false is a contradiction.
+* not contradition and not a tautology, that's a contingency
+* if a tautology looks like: $A \rightarrow B$ then it is a "rules of inference"
+	* $\frac{A}{B}$
+	* [Wiki](https://en.wikipedia.org/wiki/Rule_of_inference)
+	* Ex. $p \land (p \rightarrow q) -> q$ is a tautology.
+
+## The contradiction of $p \rightarrow q$
+
+$$p \rightarrow q \equiv \neg q \rightarrow \neg  p$$
+
+
+* The converse of $p \rightarrow q$ is $q \rightarrow p$
+* The inveres of $p \rightarrow q$ is $\neg p \rightarrow \neg q$
+
+## Distributive law
+
+$$p \land (q \lor r) \equiv (p \lor q) \land (p \lor r)$$
+$$p \land (q \lor r) \equiv (p \land q) \lor (p \land r))$$
+$$p \rightarrow (q \land r) \equiv (p \rightarrow q) \land (p \rightarrow) r$$
+$$(p \rightarrow r) \lor (p \rightarrow r) \equiv p \rightarrow (q \lor r)$$
+$$(p \rightarrow r) \land (q \rightarrow r) \equiv (p \lor q) \rightarrow r$$
+$$(p \rightarrow r) \lor (q \rightarrow r) \equiv (p \land q) \rightarrow r$$
+
+All find with
+
+$$\neg p \lor q \equiv p \rightarrow q$$
+
+## Facts
+
+$$(p \land q) \rightarrow (p \lor q) \equiv 1 $$
+
+## Circuits
+* complementary Metal Oxide Semiconductor: CMOS
+* nmos transistor (pulldown connect to 0 in circuit)
+* pmos transistor (pullup connect to 1 in circuit)

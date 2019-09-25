@@ -1,0 +1,66 @@
+# Prod. scalaire
+
+* Pro scalaire: scalaire obtenu par prod. symetrique des cordonnees identiques de deux vecteurs exprimés par rapport a un repere direct
+
+$\vec{a} = a_1\vec{e}_1+a_2\vec{e}_x+a_3\vec{e}_3$
+
+$\vec{b} = (b_1,b_2,b_3)$
+
+* Expression math:
+
+$\vec{a} * \vec{b} = a_1b_1+a_2b_2+a_3b_3$
+	
+- Commutatif: $\vec{a} \vec{b} = \vec{b} \vec{a}$
+- Vecteur de base: $\vec{e}_i\vec{e}_j = \delta_{ij} Ainversé_{i,j}=1,2,3$	 
+
+## Interpretation géo.
+* Decom. du vec a: $\vec{a} = \vec{a}_{parellele} + \vec_{perpendiculaire}$
+* Decom de $\vec{a},\vec{b}$
+* Produit scalaire...
+
+### Propriétés
+
+1. $\vec{a}\vec{a} = a^2$
+2. $\vec{a}_{par}\vec{b} ) = \vec{a}\vec{b}$
+
+# Produit vectoriel
+
+* Def produit vec
+* Expression math.
+
+1. Anticommutatif: ab = -ba
+2. vecteur de base: eiej = Ebsilonijk ek
+
+oû Eijk = 	1 pour E123, E231, E 312
+
+-1 pour E321, E213, E132
+
+0 sinon
+
+3. non-associatif
+
+## Inter. geo
+
+* Dec. du vecteur a
+* Vecteurs a et b en composantes
+* Produits vectoriel
+
+## Propriété
+
+1. a*a = 0
+2. aparaplele*b = 0
+3. aperpendi*b = a*b
+
+# Produit mixte
+
+* (aXb)*c
+
+## prop.
+
+1. (axb)*c = (bxc)*a = (cxa)*b
+2. (axb)b = (axb)a = 0
+
+
+# Identité vectorielle
+
+Identité = ax(bxc) = (ac)b - (ab)c

@@ -1,0 +1,50 @@
+# Theoreme sup et inf
+
+[Semaine 2](https://moodle.epfl.ch/course/view.php?id=14840#section-6)
+
+* Tout sous-ensemble majoré $S \subset \mathbb{R}$ possède un supremum qui est unique
+* Tout sous-ensemble minoré $S \subset \mathbb{R}$ possède un infimum qui est unique
+
+## Unicité
+
+* Si infS existe alors il est le plus grand minorant de S
+* Si supS exist, alors il est le plus petit majorant de S
+
+### Demonstration par l'absurde
+
+Idee:
+
+>Supposons qu'il existe sup S et $b \in supS$ et b est majorant de S.
+$$\exists E = \frac{supS-b}{2} > 0 \rightarrow supS - E > b > x\ \forall x \in \mathbb{R}$$
+
+
+# Notation d'intervales
+
+Soit $a < b. a,b \in \mathbb{R}$
+
+Interval fermé borné
+$${x \in \mathbb{R}: a \leq x \leq b} = [a,b]$$
+
+Interval ouvert borné
+$$]a,b[$$
+
+Interval semi-ouvert borné
+$$]a,b] ou [a,b[$$
+
+
+la droit reelle achevée
+$$\mathbb{R} \cup \{-\infty, \infty\} = \overline{\mathbb{R}}, -\infty < x < \infty \exists x \in \mathbb{R}$$
+
+Interval semi-bornés
+
+>$[a,+\infty [$ fermé
+
+>$]b,+\infty [$ ouvert
+
+>$\mathbb{R}_+$
+
+>$\mathbb{R}_-$
+
+>$\mathbb{R}^*$
+
+		
