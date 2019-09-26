@@ -1,0 +1,9 @@
+
+# commands Java 
+
+## Build
+`javac <FILE>.java`
+
+## Exec
+`java <FILE>`
+

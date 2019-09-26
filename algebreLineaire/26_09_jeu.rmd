@@ -1,0 +1,258 @@
+# Equ. matric. et sys. liné
+
+Rappel: Soit $v_1,...,v_p \in \mathbb{R}$ des vecteurs
+
+Un vectezr $b \in \mathbb{R}$ est une comb. lin. de $v_1,...,v_p$ s'ils existent des scalaire $c_1,...,c_p \in \mathbb{R}$ tel que $b=c_iv_i+...+c_pv_p$
+
+* Vect $\{v_1,...,v_p\}$, l'ensemble de toutes comb. lin. de $v_1,...,v_p$
+
+Remarque. On a toujours $0 \in Vect\{v_1,...,v_p\}$
+
+
+\begin{equation}
+\begin{pmatrix}
+0\\
+...\\
+0
+\end{pmatrix}
+\end{equation}
+
+## Produit matrice-vecteur
+
+$A=(m*n) et V (1xn)$
+
+$Av \in \mathbb{R}^m$
+
+## Rmq
+* pour que le produit soit défini, il faut et il suffit que le nombre des colonnes de A soit égale au nombre des lignes de V
+* Le nombre de linges de Av est égale au nombre de lignes de A
+
+## Ex:
+
+$$
+A=
+\begin{pmatrix}
+1 & 0 & 2 \\
+2 & 1 & 1
+\end{pmatrix}
+V=
+\begin{pmatrix}
+2 \\
+1 \\
+1
+\end{pmatrix}
+$$
+$$
+Av=
+\begin{pmatrix}
+1 & 0 & 2 \\
+2 & 1 & 1
+\end{pmatrix}
+\begin{pmatrix}
+2 \\
+1 \\
+1
+\end{pmatrix}
+=
+\begin{pmatrix}
+4 \\
+6
+\end{pmatrix}
+\in \mathbb{R}^3
+$$
+$$
+A=
+\begin{pmatrix}
+1 & 2 & 3 \\
+\end{pmatrix}
+v=
+\begin{pmatrix}
+0 \\
+1 \\
+2
+\end{pmatrix}
+\in \mathbb{R}^3
+$$
+
+$$
+Av =
+\begin{pmatrix}
+1 & 2 & 3
+\end{pmatrix}
+\begin{pmatrix}
+0 \\
+1 \\
+2
+\end{pmatrix}
+=
+\begin{pmatrix}
+0 + 2 + 6 
+\end{pmatrix}
+=
+\begin{pmatrix}
+8 
+\end{pmatrix}
+$$
+
+* Av est la combinaison liné. des colonnes de A dont les coef sont les composantes correpsondante de v.
+
+## Definition
+
+Une equation de la forme $AX=B$ où A est une matrice mxn,
+$X=
+\begin{pmatrix}
+x_1 \\
+... \\
+x_n
+\end{pmatrix}$ un vecteur des variables et $b \in \mathbb{R}^m$ est appelàe équatin matricielle.
+
+On ecrit nos observations dans le thm suivant
+
+## Thm:
+
+Soit A une matrice mxn de colonnes $a_1,...,a_n$ et $B \in \mathbb{R}^m$. 
+
+L'equation matricielle $AX = B$ a le meme ensemble de sol. que l'équation vectorielles que $a_1x_1+...+a_nx_n = B$ laquelle a le meme ensemble de sol que le syst. lin. dont la matrice augmentée est $(a_1,a_2,...,a_,b)$
+
+## Obs
+
+Considère l'équation:
+$$
+\begin{pmatrix}
+3 & -3 & -2\\
+4 & -4 & 3 \\
+-2 & 4 & 3
+\end{pmatrix}
+\begin{pmatrix}
+x_1 \\
+x_2 \\
+x_3
+\end{pmatrix}
+=
+\begin{pmatrix}
+-1 \\
+-1 \\
+3
+\end{pmatrix}
+$$
+est équivalente à
+$$
+x_1
+\begin{pmatrix}
+3 \\
+4 \\
+2
+\end{pmatrix}
++x_2
+\begin{pmatrix}
+-3 \\
+-4 \\
+4
+\end{pmatrix}
++x_3
+\begin{pmatrix}
+-2 \\
+3 \\
+3
+\end{pmatrix}
+=
+\begin{pmatrix}
+-1 \\
+-1 \\
+3
+\end{pmatrix}
+$$
+
+Cette équation a une solution si et seulement si b est une comp. lin. de $a_1,a_2,a_3$
+
+i.e $b \in Vect\{a_1,a_2,a_3\}$
+
+__En général__ l'equation $Ax=B$ admet une solution si et seulement si B est une combinaison liné des colones de A.
+
+## Théoreme
+
+Soit A une matrice mxn, alors les énoncés suivant sont équivalent.
+
+(a) Pour chaque vecteur $b \in \mathbb{R}^m$ l'equ. $Ax=b$ admet au moins une solution.
+(b) Tout vecteur de $\mathbb{R}^m$ est une combinaison lin. de colonnes de A.
+(c) Les colonnes de A engendrent $\mathbb{R}^m$
+(d) Dans la forme échelonnée de A chaque line de A contient un pivot.
+
+## Preuve
+
+On a vu au-dessus que $(a) \Leftrightarrow (b)$ $(b) \Leftrightarrow (c)$ par def.
+
+Donc il suffit de démontrer que (a) et (b) sont équivalents.
+
+[Ab] la matrice augmentée pour un vecteur $b \in \mathbb{R}^m$ donné.
+
+Soit U une forme échelonnée de A. Alors [Ab] est equiv. selon les lignes à [Ud] pour un $d \in \mathbb{R}^m$
+
+Si (d) est vrai, alors U contient un pivot dans chaque ligne, donc [Ud] n'a pas de ligne de la forme $[0,0,0,0,\alpha] \alpha \neq 0$
+
+* $Ax=b$ est compatible
+* a) est vrai
+
+Si (d) est faux, la dernière ligne de U est nulle. Soit $d \in \mathbb{R}^m$ dont la dernière composantes est 1. ALors [Ud] est la mat. augmentée d'un sys. qui n'est pas compatible.
+
+>[Ud] est équiv. selon les lignes à [Ab]
+
+Pour un $b \in \mathbb{R}^m$
+
+> $Ax = b$ n'est pas comp.
+
+> a est faux.
+
+# Ensemble des sol. d'un sys. d'equ. lin.
+
+## Def
+
+Une système d'équ lin. est dit homogène, si on peut l'ecrire sous la forme $Ax = 0$ où A est une matrice mxn.
+
+Une equ. $Ax = 0$ a toujours au moins une solution $\rightarrow x=0 \in \mathbb{R}$ solution triviale.
+
+* Les systèmes homogènes sont toujours compatibles.
+
+### Rappel
+
+Pour une systèmes linéaire compatibles, il y a deux cas:
+
+(1) Il n'y a pas de variables libres $\rightarrow$ solution unique.
+(2) Il existe au moins une variables libre $\rightarrow$ une $\infty$ de solution.
+
+## Thm
+
+L'eq $Ax = 0$ admet une solution non-triviales, si et seulement si l'équation à au moins une variable libre.
+
+# Ex
+
+\begin{equation}
+\begin{pmatrix}
+3 & 5 & -4 & 0\\
+0 & 3 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{pmatrix}
+\rightarrow
+\begin{pmatrix}
+1 & 0 & \frac{-4}{3} & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 0
+\end{pmatrix}
+\end{equation}
+
+Variables principales $\rightarrow x_1,x_2$
+
+Variables libre $\rightarrow x_3$
+
+## Système non-homogène
+
+Systeme de la forme $Ax = b$ avec $b \neq 0$
+
+## Thm
+
+Supposons que l'equation $Ax = b$ est compatible. Soit p, une solution de $Ax = b$ alors l'ensembles des solutions de $Ax = b$ est l'ensembles des vecteur de la formes $x = p+v$ où v est une solution de l'équation homogène $Ax = 0$.
+
+### Preuve
+
+(a) Si w est une solution du sys. $Ax = 0$ $\rightarrow A(p+w) = Ap + Aw = b \rightarrow Aw = 0, Ap = b$ p+w est solution de $Ax = b$
+(b) Soit q une solution de $Ax = b$. On définit $w = qp \rightarrow Aw = A(p-q) = Aq-Ap = 0 \rightarrow$ On peut écrire $q = p+w$ avec w solution de $Ax = 0$
