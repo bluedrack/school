@@ -1,0 +1,73 @@
+# Propostional function
+
+Function from some domain {0,1}.
+
+$D=\mathbb{Z}_{\geq 0}$
+
+P(x) x is a binary precisly two ones:
+
+* P(0) = 0, P(1)=0, P(2) = 0, P(3)= 1, P(6) = 1, P(5), n*P(3) = 1, n*P(5) = 1 etc.
+
+$Q(x,y) is P(x+y), Q(3,2) = 1, Q(5,y)$ is a propositional function.
+
+$D={3,5,6} P(3)=P(5)=P(6)=1 \forall x \in D, P(x)$ is true
+
+* Rewritten as $if x in D, then P(x) \equiv \forall x P(x)$
+* $D=\emptyset, \forall x\  P(x) = true$
+* $D=\{d_1,d_2,...,d_n\}\  \forall x \ P(x) \equiv P(d_1) \land P(d_2) \land ...\land P(d_n)$
+* $S \subset D$ commun to write $\forall x \in S P(x)$
+	* $D=\{2,3,4,5,6\}: \forall x\ P(x)$ is false
+	* $S={2,5} \subset D\ \forall x\ \in S P(x)$ is true
+
+# Existensial quantifier
+
+$\exists x P(x)$: "these exist an x in D soit not P(x)"
+
+* $D=\{d_1,d_2,..,d_n\} \exists x P(x) \equiv P(d_1) \lor ... \lor P(d_n)$
+
+# Quantifiying over D
+
+$$
+\forall
+x \in S \rightarrow P(x)
+\equiv \forall x \in S P(x)
+$$
+
+$$
+\exists x \in T P(x) \equiv \exists x, x \in T \land P(x)
+$$
+
+## Empty D
+
+$\exists x P(x)$ false $\leftrightarrow$ $\exists x \lnot P(x)$ false $\rightarrow \lnot \exists x P(x) \not\equiv \exists x \lnot P(x)$
+
+$$\exists x \lnot Q(x) \equiv \lnot \forall x Q(x)$$
+
+* $\exists x \forall y \forall z P(x)$ negatation is $\forall x\exists y\exists z \lnot P(x)$
+
+
+# Exists one element $\exists! x P(x)$
+
+What is $\lnot \exists! x P(x)$
+
+$$\exists! x P(x) \equiv $$
+
+
+# Nesting
+
+$\exists x Q(x,y)$ is a propositional function of y
+
+$f: D \rightarrow D$ for some y in D: $\exists x f(x) = y$
+
+* if true, $y$ has a preimage
+	* if all $y \in D$ have a preimage, then f is surjective
+	* $\forall y \exists x f(x) = y$ f is surjective
+	* $\exists x \forall y f(x) = y, if |D| > 1\ IMPOSSIBLE$
+	* $\forall x \exists y f(x) = y$ part of def of a function
+	* $\exists y \forall x f(x) = y$ is a constant function
+
+
+$$\lnot \exists x P(x) \equiv \forall x \lnot P(x)$$
+
+$$\lnot \exists x \in S P(x) \equiv \forall (x \notin S \lor \lnot P(x)) \equiv \forall (x \in S \rightarrow \lnot P(x)) \equiv \forall x \in S \lnot P(x)$$
+

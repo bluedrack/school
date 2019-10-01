@@ -1,0 +1,33 @@
+# Deuxieme loi de newton
+
+La 2^eme^ loi de newton est enoncé de ses _Principia Mathématica_
+
+\begin{equation}
+\sum \vec{F}^{ext} = \frac{d\vec{p}}{d\vec{t}}
+\end{equation}
+
+# Quantité de mouvement et vitesse
+
+* Sys de k points materiel
+* Postion p
+* Masse m
+\begin{equation}
+p(km) = k\vec{p}m
+\end{equation}
+\begin{equation}
+\frac{d\vec{p}(km)}{p(km)}\frac{dkm}{dk}=\frac{dk}{dk}\vec{p}(m)
+\rightarrow \frac{d\vec{p}km}{d(km)}m=\vec{p}(m) \forall k
+\end{equation}
+
+\begin{equation}
+\vec{P} = m\vec{f}(\vec{v})
+\end{equation}
+
+## Experience
+
+Choc entre deux glisseurs identiques de masse m
+
+* Avant: $m\vec{f}(\vec{v})$
+* Après: $2m\vec{f}(\frac{\vec{v}}{2})$
+
+* Derviée: $\frac{d\vec{f}(\vec{v})}{d\vec{V}}=2\frac{\vec{f}(\frac{d\vec{V}}{2})}{d\vec{V}} = \frac{d\vec{f}(\vec{2}/2)}{d(\frac{\vec{v}}{2})}$
