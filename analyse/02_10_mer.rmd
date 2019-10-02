@@ -1,0 +1,34 @@
+# Complexe
+
+## Rapel
+
+$z = a +ib = \rho(\cos(\varphi)+ i\sin(\varphi)) = \rho e^{i\varphi }$
+
+### Exemple
+
+$z= 3 + 3\sqrt{3}i$ trouver $z^{15}$
+
+$$z^{15}$$
+
+Tres compliqué et tres long avec les coef binomiaux.
+
+Par la forme polaire:
+
+$$|z| = \sqrt{9+27} = 6$$
+
+$$arg_z = \arctan(\frac{3\sqrt{3}}{3}) = \frac{\pi}{3}$$
+
+$$z=6e^{i\frac{\pi}{3}}$$
+
+
+## Conjugaison mdr
+
+Si $z \not = 0 \rightarrow  z^{-1}=\frac{a - ib}{a^2+b^2} = \frac{\bar{z}}{|z|^2} \rightarrow z\bar{z} \in  \mathbb{R}$
+
+### Prop. conjug.
+
+(i) $\bar{z\pm w} = \bar{z} \pm \bar{w} \forall z,w \in \mathbb{C}$
+(ii) $\bar{zw} = \bar{z}\bar{w}$
+(iii) $\bar{\frac{z}{w}} = \frac{\bar{z}}{\bar{w}}$
+(iv) $|\bar{z}| = |z|$
+(v) $z= a + ib , \bar{z} = a - b$
